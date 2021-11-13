@@ -1,12 +1,14 @@
 #include <iostream>
 #include "Scooter.h"
+using namespace std;
+
 int main()
 {
-    std::cout << "I parked my scooter outside the dairy\n";
+    cout << "I parked my scooter outside the dairy\n";
 
     Scooter* scootPtr = new Scooter(5);
 
-    std::cout << "Nek minnit\n";
+    cout << "Nek minnit\n";
 
     delete scootPtr;
 }
